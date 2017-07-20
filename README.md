@@ -5,11 +5,11 @@ Thanks to [@leonjza](https://twitter.com/leonjza) for the info!
 
 ## Usage:
 
-    docker run hypnza/smbfinger <ip_address>
+    docker run --rm hypnza/smbfinger <ip_address>
     
 ## Example:
 
-    ~: docker run hypnza/smbfinger 192.168.0.100
+    ~: docker run --rm hypnza/smbfinger 192.168.0.100
     Retrieving information for 192.168.0.100...
     SMB signing: False
     Server Time: 2017-07-20 07:20:34
